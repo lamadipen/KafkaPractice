@@ -88,6 +88,13 @@ that will send message.
 
 Step 2: Create jar file and run it on there jar file and run the consumer application to see all the message 
 with the related topic. 
+
+AVRO Tips
+Download avro from
+http://www-us.apache.org/dist/avro/stable/java/
+
+java -jar 
+java -jar avro-tools-1.8.2.jar compile schema ClickRecordV1.avsc .
  
  
 Helpful websites
@@ -99,4 +106,7 @@ https://www.tutorialspoint.com/apache_kafka/apache_kafka_installation_steps.htm
 
 Look sbt 
 http://www.scala-sbt.org/documentation.html
+
+Look
+
 
